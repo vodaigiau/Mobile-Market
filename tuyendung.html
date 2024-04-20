@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tuyển dụng - Hoàng Phúc Shop</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tuyendung.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "MSI"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="body-tuyendung">
+            <div class="tuyendung-header">Tuyển dụng</div>
+            <div class="tuyendung-info">
+                <h1 class="tieude">Tuyển dụng nhân sự</h1><br/>
+
+                <b>1.MÔ TẢ</b>
+                <ul class="tuyendung-noidung">
+                    <li>Đón tiếp, Trò chuyện và lắng nghe khách hàng về nhu cầu sử dụng điện thoại di động, máy tính bảng, phụ kiện…</li>
+                    <li>
+                        Tư vấn tính năng, tiện ích của các sản phẩm và các dịch vụ kèm theo.
+                    </li>
+                    <li>Hỗ trợ khách hàng lựa chọn sản phẩm, dịch vụ phù hợp & hỗ trợ sau bán hàng,Giải đáp các câu hỏi về sản phẩm, dịch vụ</li>
+                    <li>Nắm bắt, cập nhật thông tin, tính năng của sản phẩm mới: form sản phẩm, chất liệu, màu sắc, kiểu dáng...</li>
+                </ul>
+
+                <b>2.THỜI GIAN LÀM VIỆC</b>
+                <ul class="tuyendung-noidung">
+                    <li><span>Thời gian làm việc: Ca xoay 7 tiếng/ngày (Ngày làm ca sáng, ngày làm ca chiều. Ca làm việc do quản lý sắp xếp). Ca sáng: Từ 08h00 – 15h00, ca chiều: từ 15h00 – 22h00. Có mặt trước mỗi ca làm 15 phút</span></li>
+                    <li>Nghỉ 3 ngày/ tháng</li>
+                </ul>
+
+                <b>3.ĐỊA ĐIỂM LÀM VIỆC</b>
+                <ul class="tuyendung-noidung">
+                    <span>185 -187 Hoàng Văn Thụ, Phường 8, Quận Phú Nhuận, Tp. HCM</span>
+                </ul>
+
+                <b>4.YÊU CẦU</b>
+                <ul class="tuyendung-noidung">
+                    <li>Nam/Nữ, tuổi từ 18 – 27, tốt nghiệp Trung học Phổ thông trở lên</li>
+                    <li>Ngoại hình dễ nhìn, thân thiện, niềm nở, giao tiếp vui vẻ, khéo léo, nhanh nhẹn, không nói giọng địa phương</li>
+                    <li>Có kỹ năng giao tiếp, thuyết phục, đàm phán tốt với khách hàng.</li>
+                    <li>Kiên trì, năng động, trung thực, nhiệt tình.</li>
+                    <li>Yêu thích công nghệ, giao tiếp, chăm sóc khách hàng. Ưu tiên các ứng viên đã làm việc tại các shop bán điện thoại, điện máy.</li>
+                </ul>
+
+                <b>5.QUYỀN LỢI</b>
+                <ul class="tuyendung-noidung">
+                    <li>Thu nhập: <span>7 – 10 triệu đồng + Thưởng chương trình thi đua hàng tuần/tháng/năm, tháng nghỉ 4 ngày</span></li>
+                    <li>Hoa hồng hưởng theo doanh thu bán hàng của cửa hàng.</li>
+                    <li>Thưởng thêm theo tăng trưởng cửa hàng.</li>
+                    <li>Phụ cấp, thưởng thêm theo chế độ công ty (Làm thêm, gửi xe, sinh nhật, Lễ tết….)</li>
+                    <li>Hưởng đầy đủ các chế độ bảo hiểm xã hội, y tế, thất nghiệp theo luật lao động; chế độ phúc lợi hiếu, hỉ, sinh nhật, du lịch nghỉ mát.</li>
+                    <li>Được đào tạo về chuyên môn & kỹ năng trước khi làm việc.</li>
+                    <li>Được tiếp xúc với những sản phẩm công nghệ mới nhất hiện nay.</li>
+                </ul>
+
+                <b>6.LIÊN HỆ</b>
+                <ul class="tuyendung-noidung">
+                    <li>Ứng viên điền thông tin theo link: 
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScuWTxYofWMGbv8HY0cldgiSvFSua1NR2V38A7eJhtAaBQUWw/viewform?usp=sf_link" target="_blank">
+                            <span>Tuyển dụng</span>
+                        </a>
+                    </li>
+                    <li>371 Nguyễn Kiệm, Phường 3, Quận Gò Vấp, Tp. Hồ Chí Minh</b></li>
+                    <li>Hoặc gửi CV qua email:<b> lehoangphuc@gmail.com</b></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <script> addContainTaiKhoan() </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>
